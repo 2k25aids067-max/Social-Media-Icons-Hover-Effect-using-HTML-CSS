@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Styling</title>
+    <link
+      rel="icon"
+      href="https://img.freepik.com/premium-psd/realistic-fire-flame-isolated-transparent-background_436336-1492.jpg"
+      type="icon/png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <style>
+    body {
+      background-color: snow;
+    }
+    .social-icon ul {
+      position: relative;
+      top: 50%;
+      left: 50%;
+      display: flex;
+      transform: translate(-50%, -50%);
+      justify-content: center;
+      align-items: center;
+    }
+    .social-icon ul li {
+      list-style: none;
+      margin-top: 50%;
+      padding: 13px;
+    }
+    .social-icon ul li .fab {
+      font-size: 35px;
+      color: black;
+      line-height: 60px;
+    }
+    .social-icon ul li a .fab:hover {
+      color: white;
+    }
+    .social-icon ul li a {
+      position: relative;
+      display: block;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background-color: white;
+      box-shadow: 0 4px 8px black;
+      text-align: center;
+      transition: 0.5s;
+    }
+    .social-icon ul li a:hover {
+      transform: translate(0, -10%);
+    }
+
+    .social-icon ul li:nth-child(1) a:hover {
+      background-color: #2454ff;
+    }
+    .social-icon ul li:nth-child(2) a:hover {
+      background: linear-gradient(
+        to bottom,
+        #8806ce,
+        #fc0fc0,
+        #ff1493,
+        #fdee00,
+        #ff4f00,
+        #fc0fc0,
+        #ff1493
+      );
+      background-size: 200%;
+    }
+    .social-icon ul li:nth-child(3) a:hover {
+      background-color: greenyellow;
+    }
+    .social-icon ul li:nth-child(4) a:hover {
+      background-color: black;
+    }
+  </style>
+  <body>
+    <div class="social-icon">
+      <ul>
+        <li>
+          <a href="https://www.facebook.com/"
+            ><i class="fab fa-facebook"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.whatsapp.com/"
+            ><i class="fab fa-whatsapp"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://github.com/"><i class="fab fa-github"></i></a>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
